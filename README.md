@@ -82,17 +82,6 @@ The app opens at `http://localhost:8501`.
 
 ---
 
-## ☁️ Deploy to Streamlit Community Cloud (free, public URL)
-
-1. **Push to GitHub** — create a public repo and push this project.
-   The SQLite database is git-ignored; the app **regenerates it automatically**
-   on first load, so you don't need to commit `transport.db`.
-2. Go to **[share.streamlit.io](https://share.streamlit.io)** and sign in with GitHub.
-3. Click **"New app"** and select your repository and branch.
-4. Set **Main file path** to `app.py`.
-5. Click **Deploy**. Streamlit installs `requirements.txt` and builds the app.
-6. You'll get a public URL like `https://your-app.streamlit.app` — add it to
-   your resume and portfolio.
 
 ### (Optional) Enable email alerts
 In the deployed app's **Settings → Secrets**, paste the keys from
@@ -101,11 +90,5 @@ from/to). The Anomaly Alerts page then sends live emails. Without this, the app
 still runs fully — it just reports that email is not configured.
 
 ---
-
-## 🎤 Demo / interview talking points
-- *"It automatically flags route performance issues before a manager has to go looking for them."*
-- *"Daily and weekly PDF reports auto-generate so the operations team always has a summary ready."*
-- *"I simulated realistic TMS data because I understand how transportation data is structured."*
-- *"The data layer is fully swappable — point `utils/db.py` at a real TMS API or CSV export and everything else works unchanged."*
 
 > All data is simulated with Faker for demonstration purposes.
