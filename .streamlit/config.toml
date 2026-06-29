@@ -1,0 +1,14 @@
+# Streamlit theme for the TransOps Dashboard.
+# A clean, professional light theme with a logistics-blue accent so the app
+# reads like an internal operations tool rather than a default Streamlit demo.
+
+[theme]
+base = "light"
+primaryColor = "#1565C0"          # logistics blue (buttons, accents)
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6F9"  # cards / sidebar
+textColor = "#1A1A2E"
+font = "sans serif"
+
+[server]
+headless = true

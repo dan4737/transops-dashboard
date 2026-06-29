@@ -1,0 +1,10 @@
+# TransOps Transportation Intelligence Dashboard — dependencies
+# Pinned to the versions the app was built and tested against so that a
+# Streamlit Community Cloud deploy works on the first try.
+
+streamlit==1.58.0
+pandas==3.0.4
+plotly==6.8.0
+Faker==40.23.0
+reportlab==5.0.0
+APScheduler==3.11.3

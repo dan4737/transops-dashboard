@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Streamlit secrets (never commit real credentials)
+.streamlit/secrets.toml
+
+# Generated artifacts (regenerated on first run by the app)
+data/transport.db
+data/reports/
+data/_sample_*.pdf
+
+# OS / editor
+.DS_Store
+.qodo/
