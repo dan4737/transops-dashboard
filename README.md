@@ -8,6 +8,8 @@ Built as a portfolio piece for a **Supply Chain Analyst / Transportation
 Coordinator** role — it looks and behaves like an internal logistics tool a
 real operations team would use every morning.
 
+**PS: Claude was Used Strictly for the Frontend - to be able to spin up the dashboard by Pullling from the SQL and Python data infrastructure i built.**
+Make Sure to understand the architecture.
 ---
 
 ## ✨ Features
